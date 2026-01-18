@@ -15,7 +15,7 @@ import BottomNav from './components/layout/BottomNav'
 function App() {
   return (
     <ProgressProvider>
-      <Router>
+      <Router basename="/GoalAchiever">
         <div className="min-h-screen bg-dark-bg-primary text-dark-text-primary">
           {/* Header - visible on all pages */}
           <Header />
