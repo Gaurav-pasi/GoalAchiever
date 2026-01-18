@@ -1,0 +1,4159 @@
+{
+  "roadmap": {
+    "title": "60-Day Backend Engineer Learning Roadmap",
+    "description": "Comprehensive backend engineering preparation with Theory → Interview Questions → Hands-on approach. Optimized for Tier-3 companies (Service/Startup/Mid Product) with 2-4 hours daily commitment.",
+    "totalDays": 60,
+    "version": "2.0.0",
+    "created": "2026-01-17T14:42:49.853Z",
+    "targetRole": "Backend SDE (3-4 YOE)",
+    "estimatedDailyHours": "2-4 hours",
+    "targetCompanies": "Tier-3 (Razorpay, Swiggy, Urban Company, Postman, Groww, CRED)",
+    "days": [
+      {
+        "dayNumber": 1,
+        "title": "System Design Fundamentals I",
+        "description": "Introduction to distributed systems and architectural patterns",
+        "topics": [
+          {
+            "id": "d1-t1",
+            "name": "Monolith vs Microservices (when & why)",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d1-t2",
+            "name": "Stateless vs Stateful services",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d1-t3",
+            "name": "Horizontal vs Vertical scaling",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d1-dsa1",
+            "name": "Two Sum",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/two-sum/",
+            "pattern": "HashMap/Array",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d1-dsa2",
+            "name": "Best Time to Buy and Sell Stock",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+            "pattern": "Array/Greedy",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand when to use monolith vs microservices with real examples",
+          "Learn scaling strategies and their tradeoffs",
+          "Solve 2 fundamental array problems"
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "title": "Load Balancing & API Gateway",
+        "description": "Understanding request routing and service boundaries",
+        "topics": [
+          {
+            "id": "d2-t1",
+            "name": "Load balancer role",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d2-t2",
+            "name": "API gateway concept",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d2-t3",
+            "name": "Service boundaries",
+            "category": "System Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d2-dsa1",
+            "name": "Move Zeros",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/move-zeroes/",
+            "pattern": "Array/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d2-dsa2",
+            "name": "Missing Number",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/missing-number/",
+            "pattern": "Array/Math",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand load balancing algorithms (Round Robin, Least Connections)",
+          "Learn API gateway patterns and benefits",
+          "Master in-place array manipulation"
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "title": "Service Ownership & Data Flow",
+        "description": "Understanding how data flows through distributed systems",
+        "topics": [
+          {
+            "id": "d3-t1",
+            "name": "Service ownership",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d3-t2",
+            "name": "Data flow between services",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d3-t3",
+            "name": "Request lifecycle (Client → LB → Service → DB → Cache → Response)",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d3-dsa1",
+            "name": "Single Number",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/single-number/",
+            "pattern": "Array/Bit Manipulation",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d3-dsa2",
+            "name": "Merge Sorted Array",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/merge-sorted-array/",
+            "pattern": "Array/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Map complete request flow through a distributed system",
+          "Understand service ownership and bounded contexts",
+          "Practice array merging techniques"
+        ]
+      },
+      {
+        "dayNumber": 4,
+        "title": "Synchronous vs Asynchronous Communication",
+        "description": "Understanding communication patterns in microservices",
+        "topics": [
+          {
+            "id": "d4-t1",
+            "name": "Synchronous vs Asynchronous flows",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d4-t2",
+            "name": "Failure handling strategies",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d4-t3",
+            "name": "Back-of-the-envelope calculations (QPS, storage, traffic)",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d4-dsa1",
+            "name": "Reverse String",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/reverse-string/",
+            "pattern": "String/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d4-dsa2",
+            "name": "Valid Palindrome",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/valid-palindrome/",
+            "pattern": "String/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand when to use sync vs async communication",
+          "Learn capacity estimation techniques",
+          "Master string manipulation basics"
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "title": "Read vs Write Heavy Systems",
+        "description": "Optimizing for different workload patterns",
+        "topics": [
+          {
+            "id": "d5-t1",
+            "name": "Read-heavy vs Write-heavy tradeoffs",
+            "category": "System Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d5-t2",
+            "name": "String algorithms fundamentals",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d5-t3",
+            "name": "HashMap patterns & use cases",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d5-dsa1",
+            "name": "Group Anagrams",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/group-anagrams/",
+            "pattern": "HashMap/String",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design systems for read-heavy vs write-heavy workloads",
+          "Master anagram detection with hashmaps",
+          "Understand frequency counting patterns"
+        ]
+      },
+      {
+        "dayNumber": 6,
+        "title": "Advanced String Patterns",
+        "description": "Sliding window and substring problems",
+        "topics": [
+          {
+            "id": "d6-t1",
+            "name": "Sliding window fundamentals",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d6-t2",
+            "name": "Substring search patterns",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d6-t3",
+            "name": "Two pointer technique",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d6-dsa1",
+            "name": "Longest Substring Without Repeating Characters",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+            "pattern": "Sliding Window/HashMap",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d6-dsa2",
+            "name": "Container With Most Water",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/container-with-most-water/",
+            "pattern": "Array/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Master sliding window technique",
+          "Understand two-pointer optimization",
+          "Practice greedy approaches"
+        ]
+      },
+      {
+        "dayNumber": 7,
+        "title": "Hands-on: Build a Load Balancer",
+        "description": "Practical implementation day",
+        "topics": [
+          {
+            "id": "d7-t1",
+            "name": "Load balancer implementation (Round Robin)",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d7-t2",
+            "name": "Health checks & failover",
+            "category": "Hands-on",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d7-t3",
+            "name": "Connection pooling basics",
+            "category": "Hands-on",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d7-dsa1",
+            "name": "Is Subsequence",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/is-subsequence/",
+            "pattern": "Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Build working load balancer in Node.js/Python",
+          "Implement health checks",
+          "Test failover scenarios"
+        ]
+      },
+      {
+        "dayNumber": 8,
+        "title": "REST API Design Principles",
+        "description": "Designing clean and scalable APIs",
+        "topics": [
+          {
+            "id": "d8-t1",
+            "name": "REST principles",
+            "category": "API Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d8-t2",
+            "name": "HTTP methods",
+            "category": "API Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d8-t3",
+            "name": "HTTP status codes",
+            "category": "API Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d8-dsa1",
+            "name": "Two Sum II - Input Array Is Sorted",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+            "pattern": "Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design RESTful API endpoints",
+          "Understand proper HTTP method usage",
+          "Learn when to use each status code"
+        ]
+      },
+      {
+        "dayNumber": 9,
+        "title": "API Pagination & Filtering",
+        "description": "Handling large datasets efficiently",
+        "topics": [
+          {
+            "id": "d9-t1",
+            "name": "Pagination",
+            "category": "API Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d9-t2",
+            "name": "Filtering",
+            "category": "API Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d9-t3",
+            "name": "Idempotency keys",
+            "category": "API Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d9-dsa1",
+            "name": "3Sum",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/3sum/",
+            "pattern": "Array/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Implement cursor-based pagination",
+          "Design flexible filtering system",
+          "Master 3-pointer technique"
+        ]
+      },
+      {
+        "dayNumber": 10,
+        "title": "API Versioning & Rate Limiting",
+        "description": "API evolution and protection",
+        "topics": [
+          {
+            "id": "d10-t1",
+            "name": "Rate limiting (token bucket, leaky bucket)",
+            "category": "API Design",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d10-t2",
+            "name": "API versioning",
+            "category": "API Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d10-t3",
+            "name": "Optimistic concurrency (ETags)",
+            "category": "API Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d10-dsa1",
+            "name": "Longest Repeating Character Replacement",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+            "pattern": "Sliding Window",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Implement token bucket rate limiter",
+          "Design API versioning strategy",
+          "Practice advanced sliding window"
+        ]
+      },
+      {
+        "dayNumber": 11,
+        "title": "Security Fundamentals",
+        "description": "Web security basics",
+        "topics": [
+          {
+            "id": "d11-t1",
+            "name": "Web security",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d11-t2",
+            "name": "SQL injection",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d11-t3",
+            "name": "XSS",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d11-dsa1",
+            "name": "Permutation in String",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/permutation-in-string/",
+            "pattern": "Sliding Window",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand OWASP Top 10",
+          "Learn SQL injection prevention",
+          "Practice XSS mitigation"
+        ]
+      },
+      {
+        "dayNumber": 12,
+        "title": "CSRF & CORS Protection",
+        "description": "Cross-site attack prevention",
+        "topics": [
+          {
+            "id": "d12-t1",
+            "name": "CSRF",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d12-t2",
+            "name": "CORS",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d12-t3",
+            "name": "Security headers (CSP, HSTS, X-Frame)",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d12-dsa1",
+            "name": "Sliding Window Maximum",
+            "difficulty": "Hard",
+            "link": "https://leetcode.com/problems/sliding-window-maximum/",
+            "pattern": "Sliding Window/Deque",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Implement CSRF tokens",
+          "Configure CORS properly",
+          "Master deque-based sliding window"
+        ]
+      },
+      {
+        "dayNumber": 13,
+        "title": "Secrets Management",
+        "description": "Handling sensitive data securely",
+        "topics": [
+          {
+            "id": "d13-t1",
+            "name": "Secrets management",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d13-t2",
+            "name": "Threat modeling",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d13-t3",
+            "name": "Secrets rotation plan",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d13-dsa1",
+            "name": "Valid Anagram",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/valid-anagram/",
+            "pattern": "HashMap/String",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d13-dsa2",
+            "name": "Contains Duplicate",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/contains-duplicate/",
+            "pattern": "HashMap/Set",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design secrets management system",
+          "Implement key rotation",
+          "Practice hash-based problems"
+        ]
+      },
+      {
+        "dayNumber": 14,
+        "title": "Week 1-2 Review & Mini Project",
+        "description": "Consolidate learning",
+        "topics": [
+          {
+            "id": "d14-t1",
+            "name": "Week 1-2 comprehensive review",
+            "category": "Review",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d14-t2",
+            "name": "Resource modeling",
+            "category": "API Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d14-t3",
+            "name": "Key rotation",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d14-dsa1",
+            "name": "Product of Array Except Self",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/product-of-array-except-self/",
+            "pattern": "Array/Prefix",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Review all week 1-2 concepts",
+          "Build mini API with security",
+          "Create architecture diagram"
+        ]
+      },
+      {
+        "dayNumber": 15,
+        "title": "Caching Fundamentals",
+        "description": "Introduction to caching strategies",
+        "topics": [
+          {
+            "id": "d15-t1",
+            "name": "Caching",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d15-t2",
+            "name": "Cache-aside",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d15-t3",
+            "name": "Write-through",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d15-dsa1",
+            "name": "Design HashSet",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/design-hashset/",
+            "pattern": "Design/HashMap",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand caching patterns",
+          "Implement cache-aside pattern",
+          "Build basic hash-based data structure"
+        ]
+      },
+      {
+        "dayNumber": 16,
+        "title": "Cache Eviction Policies",
+        "description": "LRU, LFU, and TTL strategies",
+        "topics": [
+          {
+            "id": "d16-t1",
+            "name": "TTL design",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d16-t2",
+            "name": "Eviction policies (LRU, LFU)",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d16-t3",
+            "name": "Cache memory sizing",
+            "category": "Caching",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d16-dsa1",
+            "name": "LRU Cache",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/lru-cache/",
+            "pattern": "Design/LinkedList/HashMap",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Implement LRU cache from scratch",
+          "Understand eviction algorithms",
+          "Calculate optimal cache size"
+        ]
+      },
+      {
+        "dayNumber": 17,
+        "title": "Cache Invalidation",
+        "description": "Solving the hardest problem in CS",
+        "topics": [
+          {
+            "id": "d17-t1",
+            "name": "Cache stampede prevention (mutex/singleflight)",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d17-t2",
+            "name": "Cache invalidation",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d17-t3",
+            "name": "Cache invalidation race conditions",
+            "category": "Caching",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d17-dsa1",
+            "name": "Design HashMap",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/design-hashmap/",
+            "pattern": "Design/Array",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Implement cache invalidation strategy",
+          "Solve stampede problem",
+          "Handle race conditions"
+        ]
+      },
+      {
+        "dayNumber": 18,
+        "title": "Redis Deep Dive",
+        "description": "Redis persistence and data structures",
+        "topics": [
+          {
+            "id": "d18-t1",
+            "name": "When not to cache",
+            "category": "Caching",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d18-t2",
+            "name": "Redis persistence (RDB, AOF)",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d18-t3",
+            "name": "Redis data structures",
+            "category": "Caching",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d18-dsa1",
+            "name": "Implement Queue using Stacks",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/implement-queue-using-stacks/",
+            "pattern": "Stack/Queue/Design",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Set up Redis with persistence",
+          "Understand RDB vs AOF",
+          "Implement queue with stacks"
+        ]
+      },
+      {
+        "dayNumber": 19,
+        "title": "Message Queues Fundamentals",
+        "description": "Async communication with queues",
+        "topics": [
+          {
+            "id": "d19-t1",
+            "name": "Delivery semantics (at-most once, at-least once, exactly once)",
+            "category": "Messaging",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d19-t2",
+            "name": "Message queues (RabbitMQ, Kafka, SQS)",
+            "category": "Messaging",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d19-t3",
+            "name": "Pub/Sub model",
+            "category": "Messaging",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d19-dsa1",
+            "name": "Implement Stack using Queues",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/implement-stack-using-queues/",
+            "pattern": "Stack/Queue/Design",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand delivery semantics",
+          "Compare RabbitMQ vs Kafka",
+          "Implement stack with queues"
+        ]
+      },
+      {
+        "dayNumber": 20,
+        "title": "Eventual Consistency & Async Workflows",
+        "description": "Handling distributed state",
+        "topics": [
+          {
+            "id": "d20-t1",
+            "name": "Eventual consistency",
+            "category": "Messaging",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d20-t2",
+            "name": "Async workflows",
+            "category": "Messaging",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d20-t3",
+            "name": "Sagas",
+            "category": "Messaging",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d20-dsa1",
+            "name": "Time Based Key-Value Store",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/time-based-key-value-store/",
+            "pattern": "Design/HashMap/Binary Search",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design eventually consistent system",
+          "Implement saga pattern",
+          "Build time-based KV store"
+        ]
+      },
+      {
+        "dayNumber": 21,
+        "title": "Hands-on: Cache & Message Queue System",
+        "description": "Build complete caching system",
+        "topics": [
+          {
+            "id": "d21-t1",
+            "name": "Compensation steps",
+            "category": "Messaging",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d21-t2",
+            "name": "Dead letter queues",
+            "category": "Messaging",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d21-t3",
+            "name": "Retry strategies",
+            "category": "Messaging",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d21-dsa1",
+            "name": "Min Stack",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/min-stack/",
+            "pattern": "Stack/Design",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Build Redis-backed cache system",
+          "Implement DLQ with retries",
+          "Add monitoring metrics"
+        ]
+      },
+      {
+        "dayNumber": 22,
+        "title": "Database Transactions & ACID",
+        "description": "Understanding transaction guarantees",
+        "topics": [
+          {
+            "id": "d22-t1",
+            "name": "Transaction basics",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d22-t2",
+            "name": "ACID",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d22-t3",
+            "name": "Isolation levels",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d22-dsa1",
+            "name": "Binary Search",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/binary-search/",
+            "pattern": "Binary Search",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d22-dsa2",
+            "name": "Search Insert Position",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/search-insert-position/",
+            "pattern": "Binary Search",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Master ACID properties",
+          "Understand isolation levels",
+          "Practice binary search basics"
+        ]
+      },
+      {
+        "dayNumber": 23,
+        "title": "Isolation Anomalies",
+        "description": "Handling concurrent operations",
+        "topics": [
+          {
+            "id": "d23-t1",
+            "name": "Isolation anomalies (dirty, phantom)",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d23-t2",
+            "name": "Optimistic vs Pessimistic locking",
+            "category": "Database",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d23-t3",
+            "name": "DB replication",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d23-dsa1",
+            "name": "Search in Rotated Sorted Array",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+            "pattern": "Binary Search/Array",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand all isolation anomalies",
+          "Implement locking strategies",
+          "Master rotated array search"
+        ]
+      },
+      {
+        "dayNumber": 24,
+        "title": "Database Sharding",
+        "description": "Horizontal database scaling",
+        "topics": [
+          {
+            "id": "d24-t1",
+            "name": "DB sharding",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d24-t2",
+            "name": "Consistency vs performance tradeoffs",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d24-t3",
+            "name": "Read replicas",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d24-dsa1",
+            "name": "Find Minimum in Rotated Sorted Array",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+            "pattern": "Binary Search/Array",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design sharding strategy",
+          "Understand replication lag",
+          "Practice rotated array patterns"
+        ]
+      },
+      {
+        "dayNumber": 25,
+        "title": "Query Optimization",
+        "description": "Making queries fast",
+        "topics": [
+          {
+            "id": "d25-t1",
+            "name": "Query optimization",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d25-t2",
+            "name": "EXPLAIN plan",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d25-t3",
+            "name": "Indexing (single, composite, covering)",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d25-dsa1",
+            "name": "Find Peak Element",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/find-peak-element/",
+            "pattern": "Binary Search",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Read and optimize EXPLAIN plans",
+          "Create composite indexes",
+          "Master peak finding"
+        ]
+      },
+      {
+        "dayNumber": 26,
+        "title": "Schema Design",
+        "description": "Normalization and denormalization",
+        "topics": [
+          {
+            "id": "d26-t1",
+            "name": "Normalization",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d26-t2",
+            "name": "Denormalization",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d26-t3",
+            "name": "Soft deletes",
+            "category": "Database",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d26-dsa1",
+            "name": "First Bad Version",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/first-bad-version/",
+            "pattern": "Binary Search",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design normalized schema",
+          "Know when to denormalize",
+          "Implement soft deletes"
+        ]
+      },
+      {
+        "dayNumber": 27,
+        "title": "Database Connection Management",
+        "description": "Connection pooling and limits",
+        "topics": [
+          {
+            "id": "d27-t1",
+            "name": "Audit logging",
+            "category": "Database",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d27-t2",
+            "name": "Connection pooling",
+            "category": "Database",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d27-t3",
+            "name": "DB connection limits",
+            "category": "Database",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d27-dsa1",
+            "name": "Find First and Last Position of Element in Sorted Array",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+            "pattern": "Binary Search",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Implement connection pooling",
+          "Configure pool limits",
+          "Master binary search bounds"
+        ]
+      },
+      {
+        "dayNumber": 28,
+        "title": "Hands-on: E-commerce Database Design",
+        "description": "Complete database project",
+        "topics": [
+          {
+            "id": "d28-t1",
+            "name": "Database design project",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d28-t2",
+            "name": "Index optimization",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d28-t3",
+            "name": "Migration scripts",
+            "category": "Hands-on",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d28-dsa1",
+            "name": "Search a 2D Matrix",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/search-a-2d-matrix/",
+            "pattern": "Binary Search/Matrix",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design complete e-commerce DB",
+          "Optimize for read-heavy workload",
+          "Write migration scripts"
+        ]
+      },
+      {
+        "dayNumber": 29,
+        "title": "Authentication Fundamentals",
+        "description": "User authentication strategies",
+        "topics": [
+          {
+            "id": "d29-t1",
+            "name": "Authentication system design",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d29-t2",
+            "name": "JWT internals",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d29-t3",
+            "name": "Refresh token lifecycle",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d29-dsa1",
+            "name": "Reverse Linked List",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/reverse-linked-list/",
+            "pattern": "Linked List",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design authentication system",
+          "Understand JWT structure",
+          "Master linked list reversal"
+        ]
+      },
+      {
+        "dayNumber": 30,
+        "title": "Token Management",
+        "description": "JWT and session handling",
+        "topics": [
+          {
+            "id": "d30-t1",
+            "name": "Token invalidation",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d30-t2",
+            "name": "Session invalidation",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d30-t3",
+            "name": "Password hashing (bcrypt, argon2, salting)",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d30-dsa1",
+            "name": "Middle of the Linked List",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/middle-of-the-linked-list/",
+            "pattern": "Linked List/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Implement token refresh flow",
+          "Hash passwords securely",
+          "Practice fast/slow pointer"
+        ]
+      },
+      {
+        "dayNumber": 31,
+        "title": "TLS & Encryption",
+        "description": "Transport layer security",
+        "topics": [
+          {
+            "id": "d31-t1",
+            "name": "TLS basics",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d31-t2",
+            "name": "Certificate management",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d31-t3",
+            "name": "HTTPS configuration",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d31-dsa1",
+            "name": "Linked List Cycle",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/linked-list-cycle/",
+            "pattern": "Linked List/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand TLS handshake",
+          "Configure HTTPS",
+          "Detect cycles in linked list"
+        ]
+      },
+      {
+        "dayNumber": 32,
+        "title": "Authorization Systems",
+        "description": "RBAC and ABAC patterns",
+        "topics": [
+          {
+            "id": "d32-t1",
+            "name": "RBAC",
+            "category": "Security",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d32-t2",
+            "name": "ABAC",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d32-t3",
+            "name": "Permission models",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d32-dsa1",
+            "name": "Remove Nth Node From End of List",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+            "pattern": "Linked List/Two Pointer",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Design RBAC system",
+          "Implement permission checks",
+          "Master list node removal"
+        ]
+      },
+      {
+        "dayNumber": 33,
+        "title": "OAuth 2.0",
+        "description": "Third-party authentication",
+        "topics": [
+          {
+            "id": "d33-t1",
+            "name": "OAuth (high-level flow)",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d33-t2",
+            "name": "OAuth grant types",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d33-t3",
+            "name": "Social login integration",
+            "category": "Security",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d33-dsa1",
+            "name": "Merge Two Sorted Lists",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/merge-two-sorted-lists/",
+            "pattern": "Linked List",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand OAuth flow",
+          "Implement social login",
+          "Merge sorted lists"
+        ]
+      },
+      {
+        "dayNumber": 34,
+        "title": "Stack Patterns",
+        "description": "Stack-based problem solving",
+        "topics": [
+          {
+            "id": "d34-t1",
+            "name": "Stack fundamentals",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d34-t2",
+            "name": "Monotonic stack pattern",
+            "category": "DSA",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d34-t3",
+            "name": "Expression evaluation",
+            "category": "DSA",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d34-dsa1",
+            "name": "Valid Parentheses",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/valid-parentheses/",
+            "pattern": "Stack",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d34-dsa2",
+            "name": "Daily Temperatures",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/daily-temperatures/",
+            "pattern": "Stack/Monotonic Stack",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Master stack operations",
+          "Learn monotonic stack",
+          "Solve temperature problem"
+        ]
+      },
+      {
+        "dayNumber": 35,
+        "title": "Hands-on: JWT Auth System with RBAC",
+        "description": "Build complete auth system",
+        "topics": [
+          {
+            "id": "d35-t1",
+            "name": "JWT implementation",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d35-t2",
+            "name": "RBAC implementation",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d35-t3",
+            "name": "Auth testing",
+            "category": "Hands-on",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d35-dsa1",
+            "name": "Next Greater Element I",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/next-greater-element-i/",
+            "pattern": "Stack/HashMap",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Build JWT auth from scratch",
+          "Implement role-based access",
+          "Write security tests"
+        ]
+      },
+      {
+        "dayNumber": 36,
+        "title": "Tree Fundamentals",
+        "description": "Binary tree basics and traversals",
+        "topics": [
+          {
+            "id": "d36-t1",
+            "name": "Binary tree fundamentals",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d36-t2",
+            "name": "Tree traversals (Preorder, Inorder, Postorder)",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d36-t3",
+            "name": "Idempotent consumers",
+            "category": "Messaging",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d36-dsa1",
+            "name": "Binary Tree Preorder Traversal",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+            "pattern": "Tree/DFS",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d36-dsa2",
+            "name": "Binary Tree Inorder Traversal",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+            "pattern": "Tree/DFS",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Master tree traversals",
+          "Implement recursive and iterative solutions",
+          "Understand idempotent operations"
+        ]
+      },
+      {
+        "dayNumber": 37,
+        "title": "Tree Properties & Level Order",
+        "description": "BFS and tree analysis",
+        "topics": [
+          {
+            "id": "d37-t1",
+            "name": "Level order traversal",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d37-t2",
+            "name": "Tree depth calculations",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d37-t3",
+            "name": "Notification system design",
+            "category": "System Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d37-dsa1",
+            "name": "Binary Tree Level Order Traversal",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+            "pattern": "Tree/BFS",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d37-dsa2",
+            "name": "Maximum Depth of Binary Tree",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+            "pattern": "Tree/DFS",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Master BFS traversal",
+          "Calculate tree properties",
+          "Design notification system"
+        ]
+      },
+      {
+        "dayNumber": 38,
+        "title": "Balanced Trees & BST",
+        "description": "Tree validation and BST operations",
+        "topics": [
+          {
+            "id": "d38-t1",
+            "name": "BST fundamentals",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d38-t2",
+            "name": "Tree balancing concepts",
+            "category": "DSA",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d38-t3",
+            "name": "Task queues",
+            "category": "System Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d38-dsa1",
+            "name": "Balanced Binary Tree",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/balanced-binary-tree/",
+            "pattern": "Tree/DFS",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d38-dsa2",
+            "name": "Invert Binary Tree",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/invert-binary-tree/",
+            "pattern": "Tree/DFS",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Validate balanced trees",
+          "Invert binary tree",
+          "Design task queue system"
+        ]
+      },
+      {
+        "dayNumber": 39,
+        "title": "BST Operations",
+        "description": "Search and insert in BST",
+        "topics": [
+          {
+            "id": "d39-t1",
+            "name": "BST search",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d39-t2",
+            "name": "BST insert",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d39-t3",
+            "name": "Workers",
+            "category": "System Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d39-dsa1",
+            "name": "Search in a Binary Search Tree",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+            "pattern": "Tree/BST",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          },
+          {
+            "id": "d39-dsa2",
+            "name": "Insert into a Binary Search Tree",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
+            "pattern": "Tree/BST",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Master BST search",
+          "Implement BST insert",
+          "Design worker pool"
+        ]
+      },
+      {
+        "dayNumber": 40,
+        "title": "Heap & Priority Queue",
+        "description": "Top-K problems",
+        "topics": [
+          {
+            "id": "d40-t1",
+            "name": "Heap fundamentals",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d40-t2",
+            "name": "Priority queue operations",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d40-t3",
+            "name": "Analytics pipeline design",
+            "category": "System Design",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d40-dsa1",
+            "name": "Kth Largest Element in an Array",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+            "pattern": "Heap",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Understand heap structure",
+          "Solve Kth largest",
+          "Design analytics pipeline"
+        ]
+      },
+      {
+        "dayNumber": 41,
+        "title": "Top-K Patterns",
+        "description": "Frequency-based problems",
+        "topics": [
+          {
+            "id": "d41-t1",
+            "name": "Top-K frequency patterns",
+            "category": "DSA",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d41-t2",
+            "name": "Heap optimization",
+            "category": "DSA",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d41-t3",
+            "name": "Kafka partitions",
+            "category": "Messaging",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d41-dsa1",
+            "name": "Top K Frequent Elements",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/top-k-frequent-elements/",
+            "pattern": "Heap/HashMap",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Master Top-K problems",
+          "Optimize with heap",
+          "Understand Kafka partitioning"
+        ]
+      },
+      {
+        "dayNumber": 42,
+        "title": "Hands-on: RESTful API + Kafka + Rate Limiter",
+        "description": "Complete API system",
+        "topics": [
+          {
+            "id": "d42-t1",
+            "name": "API implementation",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d42-t2",
+            "name": "Kafka integration",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d42-t3",
+            "name": "Rate limiter implementation",
+            "category": "Hands-on",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d42-dsa1",
+            "name": "Kth Smallest Element in a BST",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+            "pattern": "Tree/BST",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Build complete RESTful API",
+          "Integrate Kafka messaging",
+          "Implement token bucket rate limiter"
+        ]
+      },
+      {
+        "dayNumber": 43,
+        "title": "DevOps Day 1",
+        "description": "Docker, CI/CD, Monitoring",
+        "topics": [
+          {
+            "id": "d43-t1",
+            "name": "DevOps Topic 1",
+            "category": "DevOps",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d43-t2",
+            "name": "Observability Topic 1",
+            "category": "Observability",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d43-dsa1",
+            "name": "Subsets",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/",
+            "pattern": "Backtracking/DP",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Learn DevOps concepts",
+          "Practice coding",
+          "Build projects"
+        ]
+      },
+      {
+        "dayNumber": 44,
+        "title": "DevOps Day 2",
+        "description": "Docker, CI/CD, Monitoring",
+        "topics": [
+          {
+            "id": "d44-t1",
+            "name": "DevOps Topic 2",
+            "category": "DevOps",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d44-t2",
+            "name": "Observability Topic 2",
+            "category": "Observability",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d44-dsa1",
+            "name": "Permutations",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/",
+            "pattern": "Backtracking/DP",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Learn DevOps concepts",
+          "Practice coding",
+          "Build projects"
+        ]
+      },
+      {
+        "dayNumber": 45,
+        "title": "DevOps Day 3",
+        "description": "Docker, CI/CD, Monitoring",
+        "topics": [
+          {
+            "id": "d45-t1",
+            "name": "DevOps Topic 3",
+            "category": "DevOps",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d45-t2",
+            "name": "Observability Topic 3",
+            "category": "Observability",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d45-dsa1",
+            "name": "Coin Change",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/",
+            "pattern": "Backtracking/DP",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Learn DevOps concepts",
+          "Practice coding",
+          "Build projects"
+        ]
+      },
+      {
+        "dayNumber": 46,
+        "title": "DevOps Day 4",
+        "description": "Docker, CI/CD, Monitoring",
+        "topics": [
+          {
+            "id": "d46-t1",
+            "name": "DevOps Topic 4",
+            "category": "DevOps",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d46-t2",
+            "name": "Observability Topic 4",
+            "category": "Observability",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d46-dsa1",
+            "name": "Partition Equal Subset Sum",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/",
+            "pattern": "Backtracking/DP",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Learn DevOps concepts",
+          "Practice coding",
+          "Build projects"
+        ]
+      },
+      {
+        "dayNumber": 47,
+        "title": "DevOps Day 5",
+        "description": "Docker, CI/CD, Monitoring",
+        "topics": [
+          {
+            "id": "d47-t1",
+            "name": "DevOps Topic 5",
+            "category": "DevOps",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d47-t2",
+            "name": "Observability Topic 5",
+            "category": "Observability",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Learn DevOps concepts",
+          "Practice coding",
+          "Build projects"
+        ]
+      },
+      {
+        "dayNumber": 48,
+        "title": "DevOps Day 6",
+        "description": "Docker, CI/CD, Monitoring",
+        "topics": [
+          {
+            "id": "d48-t1",
+            "name": "DevOps Topic 6",
+            "category": "DevOps",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d48-t2",
+            "name": "Observability Topic 6",
+            "category": "Observability",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Learn DevOps concepts",
+          "Practice coding",
+          "Build projects"
+        ]
+      },
+      {
+        "dayNumber": 49,
+        "title": "DevOps Day 7",
+        "description": "Docker, CI/CD, Monitoring",
+        "topics": [
+          {
+            "id": "d49-t1",
+            "name": "DevOps Topic 7",
+            "category": "DevOps",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d49-t2",
+            "name": "Observability Topic 7",
+            "category": "Observability",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Learn DevOps concepts",
+          "Practice coding",
+          "Build projects"
+        ]
+      },
+      {
+        "dayNumber": 50,
+        "title": "Cloud & Advanced Topics Day 1",
+        "description": "AWS, Terraform, Kafka, WebSockets",
+        "topics": [
+          {
+            "id": "d50-t1",
+            "name": "Cloud Topic 1",
+            "category": "Cloud",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d50-t2",
+            "name": "Advanced Topic 1",
+            "category": "Advanced",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Master cloud concepts",
+          "Review DSA",
+          "Build infrastructure"
+        ]
+      },
+      {
+        "dayNumber": 51,
+        "title": "Cloud & Advanced Topics Day 2",
+        "description": "AWS, Terraform, Kafka, WebSockets",
+        "topics": [
+          {
+            "id": "d51-t1",
+            "name": "Cloud Topic 2",
+            "category": "Cloud",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d51-t2",
+            "name": "Advanced Topic 2",
+            "category": "Advanced",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Master cloud concepts",
+          "Review DSA",
+          "Build infrastructure"
+        ]
+      },
+      {
+        "dayNumber": 52,
+        "title": "Cloud & Advanced Topics Day 3",
+        "description": "AWS, Terraform, Kafka, WebSockets",
+        "topics": [
+          {
+            "id": "d52-t1",
+            "name": "Cloud Topic 3",
+            "category": "Cloud",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d52-t2",
+            "name": "Advanced Topic 3",
+            "category": "Advanced",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Master cloud concepts",
+          "Review DSA",
+          "Build infrastructure"
+        ]
+      },
+      {
+        "dayNumber": 53,
+        "title": "Cloud & Advanced Topics Day 4",
+        "description": "AWS, Terraform, Kafka, WebSockets",
+        "topics": [
+          {
+            "id": "d53-t1",
+            "name": "Cloud Topic 4",
+            "category": "Cloud",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d53-t2",
+            "name": "Advanced Topic 4",
+            "category": "Advanced",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Master cloud concepts",
+          "Review DSA",
+          "Build infrastructure"
+        ]
+      },
+      {
+        "dayNumber": 54,
+        "title": "Cloud & Advanced Topics Day 5",
+        "description": "AWS, Terraform, Kafka, WebSockets",
+        "topics": [
+          {
+            "id": "d54-t1",
+            "name": "Cloud Topic 5",
+            "category": "Cloud",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d54-t2",
+            "name": "Advanced Topic 5",
+            "category": "Advanced",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Master cloud concepts",
+          "Review DSA",
+          "Build infrastructure"
+        ]
+      },
+      {
+        "dayNumber": 55,
+        "title": "Cloud & Advanced Topics Day 6",
+        "description": "AWS, Terraform, Kafka, WebSockets",
+        "topics": [
+          {
+            "id": "d55-t1",
+            "name": "Cloud Topic 6",
+            "category": "Cloud",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d55-t2",
+            "name": "Advanced Topic 6",
+            "category": "Advanced",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Master cloud concepts",
+          "Review DSA",
+          "Build infrastructure"
+        ]
+      },
+      {
+        "dayNumber": 56,
+        "title": "Cloud & Advanced Topics Day 7",
+        "description": "AWS, Terraform, Kafka, WebSockets",
+        "topics": [
+          {
+            "id": "d56-t1",
+            "name": "Cloud Topic 7",
+            "category": "Cloud",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d56-t2",
+            "name": "Advanced Topic 7",
+            "category": "Advanced",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Master cloud concepts",
+          "Review DSA",
+          "Build infrastructure"
+        ]
+      },
+      {
+        "dayNumber": 57,
+        "title": "System Design Whiteboarding",
+        "description": "Interview techniques",
+        "topics": [
+          {
+            "id": "d57-t1",
+            "name": "System design whiteboarding",
+            "category": "Interview Prep",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d57-t2",
+            "name": "Requirement clarification",
+            "category": "Interview Prep",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d57-t3",
+            "name": "Feature prioritization",
+            "category": "Interview Prep",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Practice system design",
+          "Mock interviews",
+          "Refine approach"
+        ]
+      },
+      {
+        "dayNumber": 58,
+        "title": "Behavioral Interview Prep",
+        "description": "STAR method and stories",
+        "topics": [
+          {
+            "id": "d58-t1",
+            "name": "Tradeoff analysis",
+            "category": "Interview Prep",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d58-t2",
+            "name": "Cost vs performance decisions",
+            "category": "Interview Prep",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d58-t3",
+            "name": "Business impact thinking",
+            "category": "Interview Prep",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d58-dsa1",
+            "name": "Mock Interview Problem 1",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/",
+            "pattern": "Mixed",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Prepare STAR stories",
+          "Practice behavioral questions",
+          "Timed mock"
+        ]
+      },
+      {
+        "dayNumber": 59,
+        "title": "Resume & LinkedIn Optimization",
+        "description": "Personal branding",
+        "topics": [
+          {
+            "id": "d59-t1",
+            "name": "Behavioral interview prep",
+            "category": "Interview Prep",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d59-t2",
+            "name": "Ownership stories (STAR)",
+            "category": "Interview Prep",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d59-t3",
+            "name": "Failure stories",
+            "category": "Interview Prep",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [
+          {
+            "id": "d59-dsa1",
+            "name": "Mock Interview Problem 2",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/",
+            "pattern": "Mixed",
+            "completed": false,
+            "attempts": 0,
+            "notes": "",
+            "lastAttempted": null
+          }
+        ],
+        "dailyGoals": [
+          "Update resume",
+          "Optimize LinkedIn",
+          "Final DSA mock"
+        ]
+      },
+      {
+        "dayNumber": 60,
+        "title": "Capstone Project & Final Review",
+        "description": "Complete your portfolio",
+        "topics": [
+          {
+            "id": "d60-t1",
+            "name": "Negotiation prep",
+            "category": "Interview Prep",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d60-t2",
+            "name": "Referrals strategy",
+            "category": "Interview Prep",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          },
+          {
+            "id": "d60-t3",
+            "name": "Resume impact metrics",
+            "category": "Interview Prep",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": [],
+              "timeSpent": 0
+            },
+            "interviewQuestions": [],
+            "handson": {
+              "projects": []
+            }
+          }
+        ],
+        "dsaProblems": [],
+        "dailyGoals": [
+          "Complete capstone project",
+          "Write comprehensive README",
+          "Deploy to production",
+          "Create architecture diagrams"
+        ]
+      }
+    ]
+  }
+}

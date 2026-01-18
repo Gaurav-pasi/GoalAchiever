@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__devagent__ie_wait",
+      "mcp__devagent__ie_execute_script",
+      "mcp__devagent__ie_refresh",
+      "mcp__devagent__ie_screenshot"
+    ]
+  }
+}

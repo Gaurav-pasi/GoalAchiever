@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-bg-primary text-dark-text-primary;
+    @apply min-h-screen;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 768px) {
+    body {
+      @apply pb-16; /* Space for bottom navigation */
+    }
+  }
+}
+
+@layer components {
+  /* Custom scrollbar for dark theme */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-bg-secondary;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500;
+  }
+
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Focus styles for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-emerald-500 ring-offset-2 ring-offset-dark-bg-primary;
+  }
+
+  /* Touch optimization - prevent tap highlight */
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Custom animations */
+  .animate-confetti {
+    animation: confetti 1s ease-out forwards;
+  }
+
+  @keyframes confetti {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+}
+
+@layer utilities {
+  /* Touch target sizing */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+
+  /* Card styles */
+  .card {
+    @apply bg-dark-bg-card rounded-lg p-4 shadow-lg;
+    @apply border border-gray-800;
+  }
+
+  .card-hover {
+    @apply transition-all duration-200;
+    @apply hover:bg-dark-bg-cardHover hover:shadow-xl hover:scale-[1.02];
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply bg-emerald-600 hover:bg-emerald-700 text-white;
+    @apply px-4 py-2 rounded-lg font-medium;
+    @apply transition-colors duration-200;
+    @apply touch-target;
+  }
+
+  .btn-secondary {
+    @apply bg-dark-bg-card hover:bg-dark-bg-cardHover text-dark-text-primary;
+    @apply border border-gray-700;
+    @apply px-4 py-2 rounded-lg font-medium;
+    @apply transition-colors duration-200;
+    @apply touch-target;
+  }
+
+  /* Text truncation */
+  .truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .truncate-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Gradient backgrounds */
+  .gradient-primary {
+    @apply bg-gradient-to-r from-emerald-600 to-teal-600;
+  }
+
+  .gradient-danger {
+    @apply bg-gradient-to-r from-red-600 to-orange-600;
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

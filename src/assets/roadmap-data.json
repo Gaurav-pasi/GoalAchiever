@@ -1,0 +1,1447 @@
+{
+  "roadmap": {
+    "title": "30-Day Backend Engineer Learning Roadmap",
+    "description": "Comprehensive backend engineering preparation with Theory → Interview Questions → Hands-on approach",
+    "totalDays": 30,
+    "days": [
+      {
+        "dayNumber": 1,
+        "title": "System Design Fundamentals",
+        "description": "Foundation of distributed systems and scalability concepts",
+        "topics": [
+          {
+            "id": "day1-topic1",
+            "name": "CAP Theorem",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 10,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day1-topic2",
+            "name": "Horizontal vs Vertical Scaling",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 8,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day1-topic3",
+            "name": "Load Balancing Strategies",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 12,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          }
+        ],
+        "deliverables": [
+          "Understand CAP theorem with real-world examples",
+          "Design a scalable architecture diagram",
+          "Implement a simple load balancer in Node.js/Python"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day1-dsa1",
+            "name": "Two Sum",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/two-sum/",
+            "completed": false
+          },
+          {
+            "id": "day1-dsa2",
+            "name": "Valid Parentheses",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/valid-parentheses/",
+            "completed": false
+          },
+          {
+            "id": "day1-dsa3",
+            "name": "Merge Two Sorted Lists",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/merge-two-sorted-lists/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "title": "Database Fundamentals",
+        "description": "SQL vs NoSQL, indexing, and database optimization",
+        "topics": [
+          {
+            "id": "day2-topic1",
+            "name": "SQL vs NoSQL",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 15,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day2-topic2",
+            "name": "Database Indexing",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 10,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day2-topic3",
+            "name": "ACID Properties",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 8,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day2-topic4",
+            "name": "Database Sharding",
+            "priority": 2,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 12,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          }
+        ],
+        "deliverables": [
+          "Create comparison table: SQL vs NoSQL use cases",
+          "Optimize a slow query using indexing",
+          "Design sharding strategy for a social media app"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day2-dsa1",
+            "name": "Binary Search",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/binary-search/",
+            "completed": false
+          },
+          {
+            "id": "day2-dsa2",
+            "name": "Reverse Linked List",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/reverse-linked-list/",
+            "completed": false
+          },
+          {
+            "id": "day2-dsa3",
+            "name": "Maximum Subarray",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/maximum-subarray/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "title": "Caching & Message Queues",
+        "description": "Redis, Memcached, and async communication patterns",
+        "topics": [
+          {
+            "id": "day3-topic1",
+            "name": "Caching Strategies (LRU, LFU)",
+            "priority": 0,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 10,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day3-topic2",
+            "name": "Redis vs Memcached",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 8,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day3-topic3",
+            "name": "Message Queues (RabbitMQ, Kafka)",
+            "priority": 1,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 12,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          },
+          {
+            "id": "day3-topic4",
+            "name": "Pub/Sub Pattern",
+            "priority": 2,
+            "theory": {
+              "completed": false,
+              "notes": "",
+              "resourceLinks": []
+            },
+            "interviewQuestions": {
+              "completed": false,
+              "questionsAnswered": 0,
+              "totalQuestions": 6,
+              "notes": ""
+            },
+            "handson": {
+              "completed": false,
+              "projectName": "",
+              "githubLink": "",
+              "notes": ""
+            }
+          }
+        ],
+        "deliverables": [
+          "Implement LRU cache from scratch",
+          "Set up Redis for session management",
+          "Build a simple message queue system"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day3-dsa1",
+            "name": "LRU Cache",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/lru-cache/",
+            "completed": false
+          },
+          {
+            "id": "day3-dsa2",
+            "name": "Implement Queue using Stacks",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/implement-queue-using-stacks/",
+            "completed": false
+          },
+          {
+            "id": "day3-dsa3",
+            "name": "Design HashSet",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/design-hashset/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 4,
+        "title": "API Design & REST",
+        "description": "RESTful principles, API versioning, and best practices",
+        "topics": [
+          {
+            "id": "day4-topic1",
+            "name": "REST API Principles",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 12, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day4-topic2",
+            "name": "API Versioning Strategies",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day4-topic3",
+            "name": "Rate Limiting",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Design a RESTful API for a blog platform",
+          "Implement API versioning (v1, v2)",
+          "Add rate limiting to API endpoints"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day4-dsa1",
+            "name": "Valid Anagram",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/valid-anagram/",
+            "completed": false
+          },
+          {
+            "id": "day4-dsa2",
+            "name": "Group Anagrams",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/group-anagrams/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 5,
+        "title": "Authentication & Authorization",
+        "description": "JWT, OAuth, session management, and security best practices",
+        "topics": [
+          {
+            "id": "day5-topic1",
+            "name": "JWT vs Session-based Auth",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 15, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day5-topic2",
+            "name": "OAuth 2.0 Flow",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day5-topic3",
+            "name": "RBAC & ABAC",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Implement JWT authentication in Express/FastAPI",
+          "Add OAuth 2.0 login (Google/GitHub)",
+          "Design RBAC system for multi-tenant app"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day5-dsa1",
+            "name": "Contains Duplicate",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/contains-duplicate/",
+            "completed": false
+          },
+          {
+            "id": "day5-dsa2",
+            "name": "Product of Array Except Self",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/product-of-array-except-self/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 6,
+        "title": "Microservices Architecture",
+        "description": "Service decomposition, inter-service communication, and patterns",
+        "topics": [
+          {
+            "id": "day6-topic1",
+            "name": "Monolith vs Microservices",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 12, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day6-topic2",
+            "name": "Service Discovery",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day6-topic3",
+            "name": "API Gateway Pattern",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Decompose monolith into microservices diagram",
+          "Implement service-to-service communication (gRPC/REST)",
+          "Set up API gateway (Kong/NGINX)"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day6-dsa1",
+            "name": "Climbing Stairs",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/climbing-stairs/",
+            "completed": false
+          },
+          {
+            "id": "day6-dsa2",
+            "name": "Min Cost Climbing Stairs",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 7,
+        "title": "Docker & Containerization",
+        "description": "Docker fundamentals, Dockerfile optimization, and orchestration basics",
+        "topics": [
+          {
+            "id": "day7-topic1",
+            "name": "Docker Architecture",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day7-topic2",
+            "name": "Multi-stage Builds",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day7-topic3",
+            "name": "Docker Compose",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Dockerize a Node.js/Python application",
+          "Optimize Dockerfile for production",
+          "Create docker-compose for multi-service app"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day7-dsa1",
+            "name": "House Robber",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/house-robber/",
+            "completed": false
+          },
+          {
+            "id": "day7-dsa2",
+            "name": "Coin Change",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/coin-change/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 8,
+        "title": "Kubernetes Basics",
+        "description": "K8s architecture, pods, services, and deployments",
+        "topics": [
+          {
+            "id": "day8-topic1",
+            "name": "K8s Architecture",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 12, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day8-topic2",
+            "name": "Pods & Services",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day8-topic3",
+            "name": "ConfigMaps & Secrets",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Deploy app to Minikube",
+          "Create K8s manifests (Deployment, Service)",
+          "Manage environment variables with ConfigMaps"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day8-dsa1",
+            "name": "Longest Substring Without Repeating Characters",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 9,
+        "title": "CI/CD Pipelines",
+        "description": "GitHub Actions, Jenkins, automated testing, and deployment",
+        "topics": [
+          {
+            "id": "day9-topic1",
+            "name": "CI/CD Fundamentals",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day9-topic2",
+            "name": "GitHub Actions",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day9-topic3",
+            "name": "Blue-Green Deployment",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Create GitHub Actions workflow",
+          "Automate tests and Docker build",
+          "Deploy to staging environment"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day9-dsa1",
+            "name": "3Sum",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/3sum/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 10,
+        "title": "Monitoring & Observability",
+        "description": "Prometheus, Grafana, logging, and distributed tracing",
+        "topics": [
+          {
+            "id": "day10-topic1",
+            "name": "Metrics vs Logs vs Traces",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day10-topic2",
+            "name": "Prometheus & Grafana",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day10-topic3",
+            "name": "Distributed Tracing (Jaeger)",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Set up Prometheus for metrics collection",
+          "Create Grafana dashboards",
+          "Implement distributed tracing"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day10-dsa1",
+            "name": "Container With Most Water",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/container-with-most-water/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 11,
+        "title": "GraphQL & gRPC",
+        "description": "Modern API protocols beyond REST",
+        "topics": [
+          {
+            "id": "day11-topic1",
+            "name": "GraphQL Fundamentals",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 12, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day11-topic2",
+            "name": "gRPC & Protocol Buffers",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Build GraphQL API with Apollo",
+          "Implement gRPC service",
+          "Compare REST vs GraphQL vs gRPC"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day11-dsa1",
+            "name": "Best Time to Buy and Sell Stock",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 12,
+        "title": "Security Best Practices",
+        "description": "OWASP Top 10, encryption, and secure coding",
+        "topics": [
+          {
+            "id": "day12-topic1",
+            "name": "OWASP Top 10",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 15, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day12-topic2",
+            "name": "SQL Injection Prevention",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day12-topic3",
+            "name": "XSS & CSRF Protection",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Audit code for OWASP vulnerabilities",
+          "Implement input validation & sanitization",
+          "Add CSRF tokens to forms"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day12-dsa1",
+            "name": "Longest Palindromic Substring",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/longest-palindromic-substring/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 13,
+        "title": "Testing Strategies",
+        "description": "Unit, integration, E2E testing, and TDD",
+        "topics": [
+          {
+            "id": "day13-topic1",
+            "name": "Testing Pyramid",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day13-topic2",
+            "name": "Mocking & Stubbing",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day13-topic3",
+            "name": "E2E Testing (Playwright/Cypress)",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Write unit tests (Jest/pytest)",
+          "Create integration tests for API",
+          "Set up E2E test suite"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day13-dsa1",
+            "name": "Palindrome Number",
+            "difficulty": "Easy",
+            "link": "https://leetcode.com/problems/palindrome-number/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 14,
+        "title": "Event-Driven Architecture",
+        "description": "Event sourcing, CQRS, and async patterns",
+        "topics": [
+          {
+            "id": "day14-topic1",
+            "name": "Event Sourcing",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day14-topic2",
+            "name": "CQRS Pattern",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Design event-driven system",
+          "Implement event sourcing with Kafka",
+          "Build CQRS for read-heavy app"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day14-dsa1",
+            "name": "Number of Islands",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/number-of-islands/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 15,
+        "title": "Review & Mini Project",
+        "description": "Consolidate Days 1-14 with a comprehensive project",
+        "topics": [
+          {
+            "id": "day15-topic1",
+            "name": "Week 1-2 Review",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 20, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Build a complete microservices app",
+          "Include: Auth, DB, Caching, Message Queue, Docker, CI/CD",
+          "Write comprehensive tests"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day15-dsa1",
+            "name": "Clone Graph",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/clone-graph/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 16,
+        "title": "Performance Optimization",
+        "description": "Profiling, bottleneck identification, and optimization techniques",
+        "topics": [
+          {
+            "id": "day16-topic1",
+            "name": "Performance Profiling",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day16-topic2",
+            "name": "Database Query Optimization",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 12, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Profile application performance",
+          "Optimize slow database queries",
+          "Reduce API response times"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day16-dsa1",
+            "name": "Course Schedule",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/course-schedule/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 17,
+        "title": "Search & Indexing",
+        "description": "Elasticsearch, full-text search, and search optimization",
+        "topics": [
+          {
+            "id": "day17-topic1",
+            "name": "Elasticsearch Basics",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day17-topic2",
+            "name": "Full-Text Search",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Set up Elasticsearch cluster",
+          "Implement full-text search",
+          "Optimize search relevance"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day17-dsa1",
+            "name": "Pacific Atlantic Water Flow",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 18,
+        "title": "Streaming & Real-time Data",
+        "description": "Kafka Streams, WebSockets, and real-time processing",
+        "topics": [
+          {
+            "id": "day18-topic1",
+            "name": "Kafka Streams",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day18-topic2",
+            "name": "WebSockets",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Build real-time chat application",
+          "Process streaming data with Kafka",
+          "Implement WebSocket server"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day18-dsa1",
+            "name": "Longest Consecutive Sequence",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/longest-consecutive-sequence/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 19,
+        "title": "Distributed Systems Patterns",
+        "description": "Saga, Circuit Breaker, and resilience patterns",
+        "topics": [
+          {
+            "id": "day19-topic1",
+            "name": "Saga Pattern",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day19-topic2",
+            "name": "Circuit Breaker",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Implement Saga pattern for distributed transactions",
+          "Add circuit breaker to microservices",
+          "Build retry mechanism with exponential backoff"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day19-dsa1",
+            "name": "Encode and Decode Strings",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/encode-and-decode-strings/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 20,
+        "title": "Cloud Platforms (AWS/GCP/Azure)",
+        "description": "Cloud services, serverless, and infrastructure",
+        "topics": [
+          {
+            "id": "day20-topic1",
+            "name": "AWS/GCP Core Services",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 12, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day20-topic2",
+            "name": "Serverless (Lambda/Cloud Functions)",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Deploy app to AWS/GCP",
+          "Create Lambda/Cloud Functions",
+          "Set up S3/Cloud Storage"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day20-dsa1",
+            "name": "Top K Frequent Elements",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/top-k-frequent-elements/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 21,
+        "title": "Data Modeling & Schema Design",
+        "description": "Database schema design, normalization, and data modeling",
+        "topics": [
+          {
+            "id": "day21-topic1",
+            "name": "Normalization vs Denormalization",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day21-topic2",
+            "name": "Schema Design Patterns",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Design database schema for e-commerce",
+          "Optimize schema for read-heavy workload",
+          "Implement data migrations"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day21-dsa1",
+            "name": "Product of Array Except Self",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/product-of-array-except-self/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 22,
+        "title": "Rate Limiting & Throttling",
+        "description": "API rate limiting strategies and implementation",
+        "topics": [
+          {
+            "id": "day22-topic1",
+            "name": "Rate Limiting Algorithms",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day22-topic2",
+            "name": "Token Bucket vs Leaky Bucket",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Implement token bucket algorithm",
+          "Add rate limiting middleware",
+          "Handle rate limit errors gracefully"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day22-dsa1",
+            "name": "Valid Sudoku",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/valid-sudoku/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 23,
+        "title": "Consistency & Consensus",
+        "description": "Raft, Paxos, and distributed consensus",
+        "topics": [
+          {
+            "id": "day23-topic1",
+            "name": "Raft Consensus Algorithm",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day23-topic2",
+            "name": "Eventual Consistency",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Study Raft visualization",
+          "Design eventually consistent system",
+          "Implement vector clocks"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day23-dsa1",
+            "name": "Encode and Decode TinyURL",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/encode-and-decode-tinyurl/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 24,
+        "title": "Logging & Error Handling",
+        "description": "Structured logging, log aggregation, and error tracking",
+        "topics": [
+          {
+            "id": "day24-topic1",
+            "name": "Structured Logging",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day24-topic2",
+            "name": "Log Aggregation (ELK Stack)",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Implement structured logging",
+          "Set up ELK stack for log aggregation",
+          "Create error tracking with Sentry"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day24-dsa1",
+            "name": "Combination Sum",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/combination-sum/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 25,
+        "title": "Batch Processing & ETL",
+        "description": "Data pipelines, batch jobs, and ETL workflows",
+        "topics": [
+          {
+            "id": "day25-topic1",
+            "name": "ETL Fundamentals",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day25-topic2",
+            "name": "Apache Airflow",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Build ETL pipeline",
+          "Create Airflow DAG",
+          "Process batch data"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day25-dsa1",
+            "name": "Word Search",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/word-search/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 26,
+        "title": "GraphQL Deep Dive",
+        "description": "Advanced GraphQL patterns, subscriptions, and optimization",
+        "topics": [
+          {
+            "id": "day26-topic1",
+            "name": "GraphQL Subscriptions",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day26-topic2",
+            "name": "N+1 Problem & DataLoader",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Implement GraphQL subscriptions",
+          "Solve N+1 problem with DataLoader",
+          "Add query complexity analysis"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day26-dsa1",
+            "name": "Word Break",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/word-break/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 27,
+        "title": "Infrastructure as Code",
+        "description": "Terraform, CloudFormation, and IaC best practices",
+        "topics": [
+          {
+            "id": "day27-topic1",
+            "name": "Terraform Basics",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 10, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day27-topic2",
+            "name": "State Management",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Write Terraform modules",
+          "Provision infrastructure on AWS/GCP",
+          "Manage Terraform state"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day27-dsa1",
+            "name": "Longest Increasing Subsequence",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/longest-increasing-subsequence/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 28,
+        "title": "API Gateway & Service Mesh",
+        "description": "Kong, Istio, and advanced routing",
+        "topics": [
+          {
+            "id": "day28-topic1",
+            "name": "API Gateway Patterns",
+            "priority": 1,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 8, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day28-topic2",
+            "name": "Service Mesh (Istio/Linkerd)",
+            "priority": 2,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 6, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Set up Kong API Gateway",
+          "Configure Istio for microservices",
+          "Implement traffic splitting"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day28-dsa1",
+            "name": "Unique Paths",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/unique-paths/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 29,
+        "title": "System Design Practice",
+        "description": "Design popular systems (URL shortener, Twitter, Netflix)",
+        "topics": [
+          {
+            "id": "day29-topic1",
+            "name": "Design URL Shortener",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 15, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          },
+          {
+            "id": "day29-topic2",
+            "name": "Design Twitter/Social Feed",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 20, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Design system architecture diagrams",
+          "Calculate capacity estimates",
+          "Identify bottlenecks and solutions"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day29-dsa1",
+            "name": "Jump Game",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/jump-game/",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 30,
+        "title": "Final Review & Capstone Project",
+        "description": "Consolidate all learnings and build comprehensive project",
+        "topics": [
+          {
+            "id": "day30-topic1",
+            "name": "Complete Roadmap Review",
+            "priority": 0,
+            "theory": { "completed": false, "notes": "", "resourceLinks": [] },
+            "interviewQuestions": { "completed": false, "questionsAnswered": 0, "totalQuestions": 30, "notes": "" },
+            "handson": { "completed": false, "projectName": "", "githubLink": "", "notes": "" }
+          }
+        ],
+        "deliverables": [
+          "Build full-stack backend system",
+          "Include: Microservices, DB, Caching, Auth, CI/CD, Monitoring",
+          "Deploy to production",
+          "Write comprehensive documentation"
+        ],
+        "dsaProblems": [
+          {
+            "id": "day30-dsa1",
+            "name": "Merge Intervals",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/merge-intervals/",
+            "completed": false
+          },
+          {
+            "id": "day30-dsa2",
+            "name": "Insert Interval",
+            "difficulty": "Medium",
+            "link": "https://leetcode.com/problems/insert-interval/",
+            "completed": false
+          }
+        ]
+      }
+    ]
+  }
+}
