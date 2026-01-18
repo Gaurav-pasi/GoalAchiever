@@ -6,6 +6,20 @@
     <meta name="description" content="30-Day Backend Engineer Learning Roadmap Tracker" />
     <meta name="theme-color" content="#0f1419" />
     <title>Goal Achiever - Backend Engineer Roadmap</title>
+
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <script type="module" crossorigin src="/GoalAchiever/assets/index-C_W8Y_G_.js"></script>
     <link rel="modulepreload" crossorigin href="/GoalAchiever/assets/react-vendor-B3xIOUlu.js">
     <link rel="modulepreload" crossorigin href="/GoalAchiever/assets/animation-vendor-0VTI7YTc.js">
