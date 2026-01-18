@@ -13,7 +13,8 @@ node_modules
 .pnp.js
 
 # Build output
-# dist - included for GitHub Pages
+# docs - included for GitHub Pages
+dist
 dist-ssr
 *.local
 
